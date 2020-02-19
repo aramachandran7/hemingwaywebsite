@@ -2,7 +2,8 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+// import pic03 from '../images/pic03.jpg'
+import hemingwayleadspic from '../images/hemingway2.jpg'
 
 class Main extends React.Component {
   render() {
@@ -28,29 +29,41 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+          <h2 className="major">Why us?</h2>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Hi. Our names are Sarah and Adi. We're two NNHS Alumn from the class of 2019, and we're here to share a little story with you.  
+          </p>
+          <p> 
+            Last summer, we ran a pilot college essay summer camp in Adi's living room. During the last week of May, we began preparing the camp, 
+            building curriculum, and sending out emails frantically, to see how many people we could get on board. 
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Despite the incredible time crunch, things went surprisingly well. Our students loved the camp. Students from our 2019 Cohort will be attending schools like the 
+            University of Michigan, University of Illinois for CS, and Vanderbilt.  
+          </p>
+          <p>
+            Through sixteen hours of instruction over the course of a month last summer, we were able 
+            to teach our students how to approach various types of college 
+            essays (e.g. the Common App essay, “why major” essays, “why 
+            school” essays, and “creative” essays) and how to create a 
+            schedule / roadmap to chart out the college application process. 
+            We also used the workshop as a forum to answer any and all 
+            questions regarding the application process, such as the 
+            differences between ED, EA, REA, and regular deadlines; the differences between liberal arts schools and traditional universities; what constitutes target, reach, and safety schools; when to ask for teacher recommendation letters; when to take and submit test scores; and much more!
+          </p>
+          <p><b>
+              This summer, we're going to be expanding the size, revamping the curriculum, taking more feedback, and pushing ourselves to grow the program extensively.
+            </b>
+          </p>
+          <p> 
+            We plan on scaling our curriculum and prepping our teaching team to cover a wider range of college essay prompts, and dive deeper into mastering the Common Application itself. 
+            We'll be investing more time into student's personal growth and working closely with them to build their personal roadmaps for professional and academic development.  
+          </p>          
+          <p>
+            Find out more of the specifics on the details page. 
+          </p>
+          <p>
+            Interested in joining this year? Check out the sign up page!
           </p>
           {close}
         </article>
@@ -62,24 +75,25 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
+          <h2 className="major">Details.</h2>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            This year, tentativly, we'll be running our camp at the Kroehler Family YMCA in Downtown Naperville. 📍
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            We'll have 2 sessions, both during the month of June. 
+          </p>
+          <p>
+            <b>A Tuesday + Thursday Session</b> from 6-8 PM. 
+          </p>
+          <p>
+            <b>A Monday + Wednesday Session</b> from 6-8 PM.
+          </p>
+          <p>
+            <b>The pricing comes out to $35/hour.</b> Besides the high quality small group & 1 on 1 tutoring, 
+            applications prep advice, and unlimited Q&A from parents and students, you're paying for a great venue, tasty snacks, and good vibes all around. 🥰
+          </p>
+          <p>
+            To reserve your spot, head to the sign up page and fill out the super quick form on the other page! 
           </p>
           {close}
         </article>
@@ -91,18 +105,27 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">About Us. </h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={hemingwayleadspic} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Hi! Thanks for checking out the about us section.
+            Sarah is a Creative Writing and economics student at Columbia University and is passionate about  
+            the liberal arts, and bringing value to others through high quality literary work and art. 
+          </p>
+          <p>
+            Adi an engineering and entrepreneurship student at the Olin College of Engineering. He loves projects
+            (his school is entirely project-based) and loves talking about engineering and nerdy stuff. 
+            Both Sarah and Adi successfully applied to some of the top universities in the nation and would love 
+            to share their experiences, tips, and tricks with you!  
+          </p>
+          <p>
+          You can learn more about Adi (and read his blog) at <a href="https://adinocap.com">adinocap.com</a>! 
+            
+          </p>
+          <p>
+            Check out some of Sarah's poetry at the <a href="https://bluemarblereview.com/sunset-highway/">Blue marble Review</a>!
           </p>
           {close}
         </article>
@@ -114,51 +137,26 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
+          <h2 className="major">Sign up! </h2>
+
+          <p>
+            Interested in joining us this summer? Tentativly, we'll be located at the Kroehler Family YMCA in Downtown Naperville. Sign up with the Google Form Below!
+          </p>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdYxUyzu3jAlfJ4rGpY_FKdB2toa9IH0a6vymvtajgLrfOGDQ/viewform?embedded=true" width="540" height="1356" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
+              <a href="https://www.instagram.com/aramachandran29/" className="icon fa-instagram">
+                <span className="label">Instagram</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://www.instagram.com/sarahmzhou/" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/aramachandran7"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
