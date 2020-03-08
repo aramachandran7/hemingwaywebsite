@@ -4,17 +4,17 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon fa-tree"></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h4>Welcome to the</h4>
-        <h1>Hemingway Summer Workshop </h1>
+        <h4>Welcome to </h4>
+        <h1>Juniper College Prep </h1>
         <p>
           Build your college essay narrative writing skills and
           prep for success. 
           <br />
-          Join us at the Hemingway summer program 2020. 
+          Join us at the Juniper College Prep 2020. 
         </p>
       </div>
     </div>

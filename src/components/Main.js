@@ -72,7 +72,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Details.</h2>
+          <h2 className="major">Details</h2>
           <p>
             This year, tentativly, we'll be running our camp at the Kroehler Family YMCA in Downtown Naperville. 📍
           </p>
@@ -102,7 +102,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About Us. </h2>
+          <h2 className="major">About</h2>
           <span className="image main">
             <img src={hemingwayleadspic} alt="" />
           </span>
@@ -134,7 +134,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Sign up! </h2>
+          <h2 className="major">Sign up!</h2>
 
           <p>
             Interested in joining us this summer? Tentativly, we'll be located at the Kroehler Family YMCA in Downtown Naperville. Sign up with the Google Form Below!
