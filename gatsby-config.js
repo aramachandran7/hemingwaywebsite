@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Hemingway',
+    title: 'Juniper College Prep',
     author: 'Adi Ramachandran',
-    description: 'Hemingway: Adi and Sarahs College Summer Essay Prep webpage.',
+    description: 'Juniper College Prep: Adi and Sarahs College Summer Essay Prep webpage.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
