@@ -11,8 +11,7 @@ const Header = props => (
         <h4>Welcome to </h4>
         <h1>Juniper College Prep </h1>
         <p>
-          Build your college essay narrative writing skills and
-          prep for success. 
+          build your essay writing skills, learn application tips and tricks, and prep for success with Juniper!
           <br />
           Join us at the Juniper College Prep 2020. 
         </p>
