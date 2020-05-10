@@ -11,9 +11,9 @@ const Header = props => (
         <h4>Welcome to </h4>
         <h1>Juniper College Prep </h1>
         <p>
-          build your essay writing skills, learn application tips and tricks, and prep for success with Juniper!
+          build your essay-writing skills, learn application tips and tricks, and prep for success with Juniper! {" "}
           <br />
-          Join us at the Juniper College Prep 2020. 
+          Join us at Juniper College Prep 2020. 
         </p>
       </div>
     </div>
@@ -25,7 +25,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Why us?  
+            About
           </button>
         </li>
         <li>
@@ -43,9 +43,20 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            Meet the Team!
           </button>
         </li>
+
+        <li>
+          <button
+              onClick={() => {
+                props.onOpenArticle('colleges')
+              }}
+            >
+            Student Results
+          </button>
+        </li>
+
         <li>
           <button
             onClick={() => {
@@ -55,6 +66,7 @@ const Header = props => (
             Sign up!
           </button>
         </li>
+        
       </ul>
     </nav>
   </header>

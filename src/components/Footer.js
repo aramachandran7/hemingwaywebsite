@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-        <p className="copyright">&copy; 2020 Juniper | Thanks for checking us out 💓! Built by: <a href="https://adinocap.com/">Adi Ramachandran</a> and Sarah Zhou. </p>
+        <p className="copyright">&copy; 2020 Juniper | Thanks for checking us out ❤️! Built by: <a href="https://adinocap.com/">Adi Ramachandran</a> and Sarah Zhou. </p>
     </footer>
 )
 

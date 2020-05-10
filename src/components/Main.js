@@ -1,6 +1,13 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import hemingwayleadspic from '../images/hemingway2.jpg'
+
+// Images Import 
+import adi from '../images/adi.jpg'
+import anne from '../images/anne.jpg'
+import doris from '../images/doris.jpg'
+import jeff from '../images/jeff.jpg'
+import neil from '../images/neil.jpg'
+import sarah from '../images/sarah.jpg'
 
 class Main extends React.Component {
   render() {
@@ -26,36 +33,34 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Why us?</h2>
+          <h2 className="major">About</h2>
           <p>
-            Hi. Our names are Sarah and Adi. We're two NNHS Alumn from the class of 2019, and we're here to share a little story with you.  
+          Juniper College Prep is a month-long camp that helps high school students prepare for the college application process. <b>Specifically, we focus on the essay component. </b>
           </p>
           <p> 
-            Last summer, we ran a pilot college essay summer camp in Adi's living room. During the last week of May, we began preparing the camp, 
-            building curriculum, and sending out emails frantically, to see how many people we could get on board. 
+          From personal experience, we know how confusing and nerve-wracking the essay can be. 
           </p>
           <p>
-            Despite the incredible time crunch, things went surprisingly well. Our students loved the camp. Students from our 2019 Cohort will be attending schools like the 
-            University of Michigan, University of Illinois for CS, and Vanderbilt.  
+          <i>What do I want my essay to convey about me? Should I write about a big achievement or a quiet revelation? Should my tone be funny or contemplative? Am I focusing too much on narrative? On imagery? And what is this prompt asking me, really?</i> 
           </p>
           <p>
-            Through sixteen hours of instruction over the course of a month last summer, we were able 
-            to teach our students how to approach various types of college 
-            essays (e.g. the Common App essay, “why major” essays, “why 
-            school” essays, and “creative” essays) and how to create a 
-            schedule / roadmap to chart out the college application process. 
-            We also used the workshop as a forum to answer any and all 
-            questions regarding the application process, such as the 
-            differences between ED, EA, REA, and regular deadlines; the differences between liberal arts schools and traditional universities; what constitutes target, reach, and safety schools; when to ask for teacher recommendation letters; when to take and submit test scores; and much more!
+            All of these swirling questions can make it seem nearly impossible to write a good essay, let alone one that’ll move an admissions officer.
           </p>
-          <p><b>
-              This summer, we're going to be expanding the size, revamping the curriculum, taking more feedback, and pushing ourselves to grow the program extensively.
-            </b>
+          <p>
+          Fortunately, there is good news: writing an essay doesn’t have to feel that way! In fact, Juniper strives to provide students the tools and guidance necessary to produce dynamic, compelling essays that are sure to shine in any application pile. With our team of talented mentors, we first introduce students to the college application process and the different types of essays. Then, we guide students through the essay-writing process from the very first seeds of an idea to the last touch-ups on a final draft. To this end, our camp includes: 
           </p>
-          <p> 
-            We plan on scaling our curriculum and prepping our teaching team to cover a wider range of college essay prompts, and dive deeper into mastering the Common Application itself. 
-            We'll be investing more time into student's personal growth and working closely with them to build their personal roadmaps for professional and academic development.  
-          </p>          
+          <ul>
+            <li>An in-depth look at different types of college essays</li>
+            <li>Guidance in brainstorming and refining ideas</li>
+            <li>Detailed multi-draft feedback</li>
+            <li>Lessons on various aspects of narrative essay-writing, including tone, diction, personal voice, and narrative cohesion</li>
+            <li>Example essays that have been accepted by Top 20 Colleges, including schools within the Ivy League</li>
+            <li>Guest speakers on the college application process and the college experience</li>
+            <li>One-on-one mentorship, with a maximum mentor-to-student ratio of 1:3</li>
+          </ul>
+          <p>
+          With these tools, as well as the guidance of our talented mentors, your essays are sure to stand out from the crowd! If you’re interested in joining us this summer, see below for specific details.
+          </p>   
           <p>
             Find out more of the specifics on the details page. 
           </p>
@@ -74,24 +79,26 @@ class Main extends React.Component {
         >
           <h2 className="major">Details</h2>
           <p>
-            This year, tentativly, we'll be running our camp at the Kroehler Family YMCA in Downtown Naperville. 📍
+            Who: <b>any high school student, from rising freshmen to rising seniors!</b>
           </p>
           <p>
-            We'll have 2 sessions, both during the month of June. 
+            When: <b>four weeks over the month of July, beginning July 6</b>
+          </p>
+          <ul> 
+            <li><b>Session I:</b> M/W, 7:00-9:00 p.m. CST</li>
+            <li><b>Session II:</b> T/Th, 7:00-9:00 p.m. CST</li>
+          </ul>
+          <p>
+          Where: <b>Zoom!!📍🏎️🏎️</b>
           </p>
           <p>
-            <b>A Tuesday + Thursday Session</b> from 6-8 PM. 
+            Pricing: <b>$560 for the full camp ($35/hr)</b>
           </p>
-          <p>
-            <b>A Monday + Wednesday Session</b> from 6-8 PM.
-          </p>
-          <p>
-            <b>The pricing comes out to $35/hour.</b> Besides the high quality small group & 1 on 1 tutoring, 
-            applications prep advice, and unlimited Q&A from parents and students, you're paying for a great venue, tasty snacks, and good vibes all around. 🥰
-          </p>
-          <p>
-            To reserve your spot, head to the sign up page and fill out the super quick form on the other page! 
-          </p>
+          
+          <ul>
+            <li>We require all students to pay in full before their first session.</li>
+            <li> <b>Payments should be conducted through Zelle to smzhou1@gmail.com.</b> Please enter “Juniper College Prep” as the memo. </li>
+          </ul>
           {close}
         </article>
 
@@ -102,28 +109,102 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Meet the Team!</h2>
+          
           <span className="image main">
-            <img src={hemingwayleadspic} alt="" />
+            <img src={adi} alt="" />
           </span>
           <p>
-            Hi! Thanks for checking out the about us section.
-            Sarah is a Creative Writing and economics student at Columbia University and is passionate about  
-            the liberal arts, and bringing value to others through high quality literary work and art. 
+            <b>Adi Ramachandran, Co-founder & Co-CEO</b>
           </p>
           <p>
-            Adi an engineering and entrepreneurship student at the Olin College of Engineering. He loves projects
-            (his school is entirely project-based) and loves talking about engineering and nerdy stuff. 
-            Both Sarah and Adi successfully applied to some of the top universities in the nation and would love 
-            to share their experiences, tips, and tricks with you!  
+            Adi is a rising second-year and Electrical & Computer Engineering major at the Olin College of Engineering. He’s super passionate about his entrepreneurship and engineering projects, which is fitting since he attends a 400-student school with no tests, finals, or midterms—only projects! In the past, he’s met President Obama at the White House Science Fair, worked on his own tech startup, and more. Ask him anything related to colleges, engineering, or education! Read his blog at <a href="https://adinocap.com">adinocap.com</a>!
+          </p>
+          <span className="image main">
+            <img src={sarah} alt="" />
+          </span>
+          <p>
+            <b>Sarah Zhou, Co-founder & Co-CEO</b>
           </p>
           <p>
-          You can learn more about Adi (and read his blog) at <a href="https://adinocap.com">adinocap.com</a>! 
-            
+            Sarah is a rising second-year at Columbia University, where she intends to study Creative Writing and Film & Media Studies. Her creative writing, which has been published by multiple literary journals, has been recognized by the Poetry Society of the United Kingdom, the Scholastic Art & Writing Awards, and the National Council of Teachers of English. She has also worked as the Development Operations Intern for the All Stars Project, a national nonprofit that transforms the lives of youth and poor communities through the developmental power of performance. In her free time, she is a dedicated consumer of rock music, soup dumplings, and coming-of-age films awash in ’80s nostalgia.
+          </p>
+          <span className="image main">
+            <img src={neil} alt="" />
+          </span>
+          <p>
+            <b>Neil Xu, Mentor</b>
           </p>
           <p>
-            Check out some of Sarah's poetry at the <a href="https://bluemarblereview.com/sunset-highway/">Blue marble Review</a>!
+            Neil is a member of Brown University’s Class of 2024 where he will be majoring in Computer Science and possibly Cognitive Science. Lately, Neil has developed an obsession with 3D printing and is working on a startup to create low-cost, 3D-printed saxophone mouthpieces for student players. When he’s not busy making CAD designs, Neil can be found in his basement woodworking, going on runs around Lisle and Naperville, or practicing every woodwind instrument in his house (namely the flute, the clarinet, and three different types of saxophones).
           </p>
+          <span className="image main">
+            <img src={anne} alt="" />
+          </span>
+          <p>
+            <b>Anne Zhao, Mentor</b>
+          </p>
+          <p>
+            Ann is part of the Class of 2024 at Wellesley College, planning on studying Cognitive and Linguistic Sciences. She is a proponent of the Oxford comma, avid user of semicolons, and voracious reader of diverse YA novels; email her at any time about anything and she will send back an unsolicited spreadsheet of book recommendations.
+          </p>
+          <span className="image main">
+            <img src={doris} alt="" />
+          </span>
+          <p>
+            <b>Doris Han, Mentor</b>
+          </p>
+          <p>
+            Doris is a part of University of Chicago’s Class of 2024 studying Biology on a pre-med track. She is an extended metaphor connoisseur and a steadfast advocate for bad but clever puns. In the future, she hopes to achieve her dream of folding 1,000 paper cranes, but in the meantime, she finds entertainment in creating minimalistic art and playlists fueled by her vehement addiction to americanos. 
+          </p>
+          <span className="image main">
+            <img src={jeff} alt="" />
+          </span>
+          <p>
+            <b>Jeffery Zou, Mentor</b>
+          </p>
+          <p>
+            Jeffrey is part of Brown University’s Class of 2024, likely majoring in English and Economics. When he’s not writing poetry or editing for Polyphony Lit, he enjoys taking nature hikes, climbing, and studying environmental science. He is also an avid fan of basketball.
+          </p>
+          {close}
+        </article>
+
+        <article
+          id="colleges"
+          className={`${this.props.article === 'colleges' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Student Results</h2>
+          <p>
+            Since the inception of Juniper College Prep in 2019, we have been lucky enough to mentor an astounding number of passionate, driven, and innovative high school students. They have subsequently been accepted by the following colleges and universities:
+          </p>
+          <ul>
+            <li>Brown University</li>
+            <li>Case Western Reserve University</li>
+            <li>Georgetown University</li>
+            <li>Rice University</li>
+            <li>University of California, Berkeley</li>
+            <li>University of California, Irvine</li>
+            <li>University of California, San Diego</li>
+            <li>University of California, Santa Barbara</li>
+            <li>University of Illinois at Urbana-Champaign</li>
+            <li>University of Michigan</li>
+            <li>Washington University in St. Louis</li>
+            <li>Wellesley College</li>
+          </ul>
+          <p>
+          Our students have also been accepted by the following highly selective university programs:
+          </p>
+          
+          <ul>
+            <li>UC Berkeley’s Electrical Engineering & Computer Sciences Program</li>
+            <li>UIUC’s Computer Sciences Program</li>
+          </ul>
+          <p>
+            Congrats to all of our alumni—we are so incredibly proud of you!
+          </p>
+
           {close}
         </article>
 
@@ -137,29 +218,32 @@ class Main extends React.Component {
           <h2 className="major">Sign up!</h2>
 
           <p>
-            Interested in joining us this summer? Tentativly, we'll be located at the Kroehler Family YMCA in Downtown Naperville. Sign up with the Google Form Below!
+            Interested in joining us this summer? Sign up with the Google Form Below!
           </p>
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdYxUyzu3jAlfJ4rGpY_FKdB2toa9IH0a6vymvtajgLrfOGDQ/viewform?embedded=true" width="540" height="1356" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-          <ul className="icons">
-            <li>
-              <a href="https://www.instagram.com/aramachandran29/" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/sarahmzhou/" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/aramachandran7"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-          </ul>
+          
+          {//ICONS
+          // <ul className="icons">
+          //   <li>
+          //     <a href="https://www.instagram.com/aramachandran29/" className="icon fa-instagram">
+          //       <span className="label">Instagram</span>
+          //     </a>
+          //   </li>
+          //   <li>
+          //     <a href="https://www.instagram.com/sarahmzhou/" className="icon fa-instagram">
+          //       <span className="label">Instagram</span>
+          //     </a>
+          //   </li>
+          //   <li>
+          //     <a
+          //       href="https://github.com/aramachandran7"
+          //       className="icon fa-github"
+          //     >
+          //       <span className="label">GitHub</span>
+          //     </a>
+          //   </li>
+          // </ul>
+        }
           {close}
         </article>
       </div>
