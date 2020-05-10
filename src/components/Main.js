@@ -2,12 +2,12 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 // Images Import 
-import adi from '../images/adi.jpg'
-import anne from '../images/anne.jpg'
-import doris from '../images/doris.jpg'
-import jeff from '../images/jeff.jpg'
-import neil from '../images/neil.jpg'
-import sarah from '../images/sarah.jpg'
+import adi from '../images/profiles/adi.jpg'
+import anne from '../images/profiles/anne.jpg'
+import doris from '../images/profiles/doris.jpg'
+import jeff from '../images/profiles/jeff.jpg'
+import neil from '../images/profiles/neil.jpg'
+import sarah from '../images/profiles/sarah.jpg'
 
 class Main extends React.Component {
   render() {
