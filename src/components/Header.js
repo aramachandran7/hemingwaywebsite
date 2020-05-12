@@ -25,7 +25,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            About
+            Our Services
           </button>
         </li>
         <li>
@@ -43,7 +43,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            Meet the Team!
+            Meet Our Team
           </button>
         </li>
 
@@ -69,6 +69,18 @@ const Header = props => (
         
       </ul>
     </nav>
+    <ul className="icons">
+      <li>
+        <a href="mailto:junipercollegeprep@gmail.com" className="icon fa-envelope">
+          <span className="label">Instagram</span>
+        </a>
+      </li>
+      <li>
+        <a href="tel:630-796-9467" className="icon fa-phone">
+          <span className="label">Instagram</span>
+        </a>
+      </li>
+    </ul>
   </header>
 )
 
