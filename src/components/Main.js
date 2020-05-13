@@ -215,8 +215,17 @@ class Main extends React.Component {
           <p>
             Interested in joining us this summer? Sign up with the Google Form Below!
           </p>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdYxUyzu3jAlfJ4rGpY_FKdB2toa9IH0a6vymvtajgLrfOGDQ/viewform?embedded=true" width="540" height="1356" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
+          <div
+          style={{
+            position:"relative",
+            paddingTop:"251.2%",
+            overflow:"hidden",
+          }}
+          >
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdYxUyzu3jAlfJ4rGpY_FKdB2toa9IH0a6vymvtajgLrfOGDQ/viewform?embedded=true" width="540" height="1356" frameborder="0" marginheight="0" marginwidth="0"
+            style={{position:"absolute", top:0, left:0, width:"100%", height:"100%", border:0}}
+            >Loading…</iframe>
+          </div>
           {close}
         </article>
       </div>
