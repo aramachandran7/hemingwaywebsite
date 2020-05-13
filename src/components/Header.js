@@ -62,8 +62,9 @@ const Header = props => (
             onClick={() => {
               props.onOpenArticle('contact')
             }}
+            style={{fontSize:20, backgroundColor:"#F64444", border:"none"}}
           >
-            Sign up!
+            <b><u>Sign Up!</u></b>
           </button>
         </li>
         
