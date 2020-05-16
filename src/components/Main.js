@@ -80,12 +80,15 @@ class Main extends React.Component {
           WHERE: Zoom (Links will be sent out before each class)
           </p>
           <p>
-            Pricing: $560 for the full camp ($35/hr)
+            PRICING: 
           </p>
           <ul>
-            <li>We require all students to pay in full before their first session.</li>
-            <li> <b>Payments should be conducted through Zelle to smzhou1@gmail.com.</b> Please enter “Juniper College Prep” as the memo. </li>
+            <li><b>Early bird rate</b> (before June 15): $500 for the full camp</li>
+            <li>Regular rate: $560 for the full camp</li>
+            <li>We require all students to pay in full before their first class.</li>
+            <li><b>Payments should be conducted through Zelle to smzhou1@gmail.com.</b> Please enter “Juniper College Prep” as well as the student’s name in the memo line.</li>
           </ul>
+          <p>DEADLINE TO SIGN UP: <b>July 1st</b></p>
           {close}
         </article>
 
