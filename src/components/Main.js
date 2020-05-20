@@ -87,7 +87,7 @@ class Main extends React.Component {
             <li>Regular rate: $560 for the full camp</li>
             <li>We require all students to pay in full before their first class.</li>
             <li><b>Payments should be conducted through Zelle to smzhou1@gmail.com.</b> Please enter “Juniper College Prep” as well as the student’s name in the memo line.</li>
-            <li><b>NOTE: Financial Aid is available!</b> If you are currently part of a reduced fee program (e.g. free/reduced lunch) or otherwise receive financial assistance, the camp fee will be reduced to $80. If this cost is still a challenge to meet, contact us via email or phone, and we’ll be happy to work something out with you!</li>
+            <li><b>NOTE: Financial aid is available!</b> If you are currently part of a reduced fee program (e.g. free/reduced lunch) or otherwise receive financial assistance, the camp fee will be reduced to $80. If this cost is still a challenge to meet, contact us via email or phone, and we’ll be happy to work something out with you!</li>
           </ul>
           <p>DEADLINE TO SIGN UP: <b>July 1st</b></p>
           {close}
