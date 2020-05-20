@@ -62,7 +62,7 @@ const Header = props => (
             onClick={() => {
               props.onOpenArticle('contact')
             }}
-            style={{backgroundColor:"#F64444", border:"none"}}
+            style={{border:"none", fontSize:18}} // removed: backgroundColor:"#F64444"
           >
             <b><u>Sign Up!</u></b>
           </button>
@@ -73,12 +73,12 @@ const Header = props => (
     <ul className="icons">
       <li>
         <a href="mailto:junipercollegeprep@gmail.com" className="icon fa-envelope">
-          <span className="label">Instagram</span>
+          <span className="label">Email</span>
         </a>
       </li>
       <li>
         <a href="tel:630-796-9467" className="icon fa-phone">
-          <span className="label">Instagram</span>
+          <span className="label">Phone</span>
         </a>
       </li>
     </ul>
