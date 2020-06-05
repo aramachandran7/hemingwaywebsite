@@ -83,7 +83,7 @@ class Main extends React.Component {
             PRICING: 
           </p>
           <ul>
-            <li><b>Early bird rate</b> (before June 15): $500 for the full camp</li>
+            <li><b>Early bird rate</b> (before June 22): $500 for the full camp</li>
             <li>Regular rate: $560 for the full camp</li>
             <li>
               <b>Financial aid:</b> If you are currently part of a reduced fee program (e.g. free/reduced lunch) or otherwise receive financial assistance, the camp fee will be reduced to $80. If this cost is still a challenge to meet, contact us via email or phone, and we’ll be happy to work something out with you!
