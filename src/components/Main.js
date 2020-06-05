@@ -91,10 +91,10 @@ class Main extends React.Component {
             <li>We require all students to pay in full before their first class.</li>
             <li><b>Payments should be conducted through Zelle to smzhou1@gmail.com.</b> Please enter “Juniper College Prep” as well as the student’s name in the memo line.</li>
           </ul>
+          <p>DEADLINE TO SIGN UP: <b>July 1st</b></p>
           <p>
           <b>REFERRAL PROGRAM:</b> If you’ve already signed up, check out our referral program! For every student—up to three students—that you refer to us, we’re offering a discount of $50 (if you are not on financial aid) or $10 (if you are on financial aid). That means a total discount of up to $150 (if you are not on financial aid) or $30 (if you are on financial aid)! Just make sure that the referred student, when signing up, enters your name under the question “Were you referred to our program by anyone? If so, enter their name (first and last) below.” Please note that the referred student must enter your name—if they enter anyone else’s name (e.g. your parent’s) we won’t be able to count that towards your referrals!
           </p>
-          <p>DEADLINE TO SIGN UP: <b>July 1st</b></p>
           {close}
         </article>
 
