@@ -81,6 +81,11 @@ const Header = props => (
           <span className="label">Phone</span>
         </a>
       </li>
+      <li>
+        <a href="https://www.instagram.com/junipercollegeprep/" className="icon fa-instagram">
+          <span className="label">Instagram</span>
+        </a>
+      </li>
     </ul>
   </header>
 )
